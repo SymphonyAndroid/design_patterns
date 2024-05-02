@@ -8,7 +8,7 @@ import reporting.ArrivalReporting;
 import reporting.DispatchReporting;
 import reporting.Reporting;
 import util.ConsoleUtil;
-import warehouse.Box;
+import warehouse.Warehouse;
 
 import java.util.Scanner;
 import java.util.function.Consumer;
@@ -16,11 +16,11 @@ import java.util.function.Consumer;
 public class Main {
 
     public static void main(String[] args) {
-        Box warehouse = new Box();
+        Warehouse warehouse = new Warehouse();
         mainMenu(warehouse);
     }
 
-    public static void mainMenu(Box warehouse) {
+    public static void mainMenu(Warehouse warehouse) {
         int choice = ConsoleUtil.printMenu(
                 "\t Меню",
                 "1. Реєстрація надходження товару",
