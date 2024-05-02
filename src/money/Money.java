@@ -1,7 +1,5 @@
 package money;
 
-import java.util.Currency;
-
 public class Money {
 
     public Money(int value, int cents) {
