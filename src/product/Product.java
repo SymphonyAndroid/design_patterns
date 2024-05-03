@@ -22,23 +22,23 @@ public class Product {
         this.unit = unit;
     }
 
-    public @NotNull String getId() {
+    public final @NotNull String getId() {
         return id;
     }
 
-    public @NotNull String getName() {
+    public final @NotNull String getName() {
         return name;
     }
 
-    public float getQuantity() {
+    public final float getQuantity() {
         return quantity;
     }
 
-    public @NotNull Unit getUnit() {
+    public final @NotNull Unit getUnit() {
         return unit;
     }
 
-    public void setQuantity(float quantity) {
+    public final void setQuantity(float quantity) {
         this.quantity = quantity;
     }
 
@@ -52,7 +52,7 @@ public class Product {
         Unit(String value) {
             this.value = value;
         }
-        public String getValue() {
+        public final String getValue() {
             return value;
         }
     }
