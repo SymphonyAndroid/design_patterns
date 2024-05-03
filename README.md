@@ -9,13 +9,13 @@
 
 # Запуск
 1. Запустити IntelliJ IDEA
-2. Запуск виконуються у методі [`main`](src/Main.java#L18)
+2. Запуск виконуються у методі [`main`](src/Main.java#L19)
 
 # Programming Principles
 - ## DRY (Don`t repeat yourself)
   Повторення коду в програмі відсутнє
 - ## KISS (Keep It Simple, Stupid)
-  Простий метод для виведення історії накладних [`showReporting()`](src/warehouse/Warehouse.java#L88)
+  Простий метод для виведення історії накладних [`showReporting()`](src/warehouse/Warehouse.java#L90)
 - ## YAGNI (You Ain't Gonna Need It)
   Програма не містить функціоналу, який не використовується
 - ## Program to Interfaces not Implementations
